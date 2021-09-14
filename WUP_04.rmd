@@ -35,14 +35,31 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+mydata<-read.csv(file = "GSScsv.csv")
+```
+
+```{r}
+boxplot(WORDSUM~DEGREE,data=mydata)
+```
+The middle box and the far right box can go completely under the box to the left named "graduates". The means from the 2 sets are quite different from each other. The middle box has nothing in common with the middle 50% of the grad school box normally that means that there is a big different from the mean of the grad school students. 
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+mydata<-read.csv(file = "GSScsv.csv")
+```
+
+```{r}
+favstats(WORDSUM~DEGREE,data=mydata)
+```
+The people who junior college level education, a bachelors degree and and a grad school degree has a higher mean results than those compared to junior high school and high school category. As per the graph above, the mean for the degree holders area above 9.204545 while the non degree holders have a mean of less than 8.282353
 
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+
 
 
 # Discussion and Conclusion
