@@ -71,9 +71,19 @@ The data shows that the degree holders have a higher mean that those without. Th
 par(mar = c(3, 16, 2, 2))
 plot(TukeyHSD(model1,conf.level=.95),las=2)
 ```
+
 We conclude that high school and graduate are different from each other and LH high school and graduates are also different.  As per graph above, LT highschool, graduate and highschool graduate do not hit the 0.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+In conclusion, according to the graphs above; 
+
+The middle box and the far right box can go completely under the box to the left named "graduates". The means from the 2 sets are quite different from each other. The middle box has nothing in common with the middle 50% of the grad school box normally that means that there is a big different from the mean of the grad school students.
+
+The people who junior college level education, a bachelors degree and and a grad school degree has a higher mean results than those compared to junior high school and high school category. As per the graph above, the mean for the degree holders area above 9.204545 while the non degree holders have a mean of less than 8.282353
+
+The data shows that the degree holders have a higher mean that those without. The p value on the other hand shows the opposite. In conclusion we have to reject the null hypothesis for this. The p value of 0.000236  represents the chances of getting the results for this particular problem is very small.
+
+Also, high school and graduate are different from each other and LH high school and graduates are also different.  As per graph above, LT highschool, graduate and highschool graduate do not hit the 0.
