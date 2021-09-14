@@ -71,7 +71,7 @@ The data shows that the degree holders have a higher mean that those without. Th
 par(mar = c(3, 16, 2, 2))
 plot(TukeyHSD(model1,conf.level=.95),las=2)
 ```
-We conclude that high school and graduate are different from each other and LH high school and graduates are also different.  
+We conclude that high school and graduate are different from each other and LH high school and graduates are also different.  As per graph above, LT highschool, graduate and highschool graduate do not hit the 0.
 
 # Discussion and Conclusion
 
